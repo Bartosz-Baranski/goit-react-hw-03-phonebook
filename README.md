@@ -1,1 +1,1 @@
-https://bartosz-baranski.github.io/goit-react-hw-02-phonebook/
+https://bartosz-baranski.github.io/goit-react-hw-03-phonebook/
