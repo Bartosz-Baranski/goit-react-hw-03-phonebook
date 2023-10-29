@@ -10,6 +10,18 @@ class Phonebook extends Component {
   state = {
     contacts: [],
   };
+
+  componentDidUpdate() {
+    localStorage.setItem('contacts', JSON.stringify(this.state.contacts));
+  }
+
+  componentDidMount() {
+    const localStorageContact = localStorage.getItem('contacts');
+    if (localStorageContact) {
+      this.setState({ contacts: JSON.parse(localStorageContact) });
+    }
+  }
+
   addContact = newContact => {
     let existedContact = this.state.contacts.some(
       contact =>
