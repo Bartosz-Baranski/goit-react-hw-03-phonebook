@@ -1,0 +1,18 @@
+
+.form_section {
+  display: flex;
+  flex-direction: column;
+}
+.phonebook_label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form_name:hover {
+  border-color: rgb(26, 74, 104);
+}
+.btn_add {
+  margin-top: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.phonebook_label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.contact_list {
+  display: flex;
+  flex-direction: column;
+}
+.contact_element {
+  display: flex;
+  gap: 10px;
+}
+.btn_delete {
+  cursor: pointer;
+}
