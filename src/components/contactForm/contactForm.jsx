@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import css from './contactForm.module.css';
+import React, { Component } from 'react';
+
+import css from './ContactForm.module.css';
 
 const initValues = {
   contacts: [],

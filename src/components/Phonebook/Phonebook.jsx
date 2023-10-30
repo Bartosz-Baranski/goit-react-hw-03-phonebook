@@ -1,10 +1,12 @@
-import React, { Component } from 'react';
-import css from './Phonebook.module.css';
-import PropTypes from 'prop-types';
-import ContactForm from 'components/contactForm/contactForm';
-import ContactList from 'components/ContactList/ContactList';
 import { nanoid } from 'nanoid';
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+
+import ContactForm from 'components/ContactForm/ContactForm';
+import ContactList from 'components/ContactList/ContactList';
+
+import css from './Phonebook.module.css';
 
 class Phonebook extends Component {
   state = {
